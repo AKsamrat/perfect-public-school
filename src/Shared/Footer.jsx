@@ -28,40 +28,44 @@ const Footer = () => {
               <ul className="mt-2 space-y-1 text-sm text-white dark:text-black font-sans">
                 <li>Saturday to Thursday: 8am - 5pm</li>
                 <li>Weekend: 10am - 3pm</li>
+                <li>
+                  Moddo Bazar <br />
+                  Nakla-Sherpur
+                </li>
               </ul>
             </p>
           </div>
           <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
             <div className="space-y-3">
               <h3 className="tracking-wide uppercase dark:text-gray-900 text-[#00C2CB]">
-                Product
+                Service
               </h3>
               <ul className="space-y-1">
                 <li>
                   <a rel="noopener noreferrer" href="#">
-                    Features
+                    Admission
                   </a>
                 </li>
                 <li>
                   <a rel="noopener noreferrer" href="#">
-                    Integrations
+                    Result
                   </a>
                 </li>
                 <li>
                   <a rel="noopener noreferrer" href="#">
-                    Pricing
+                    Online Admission
                   </a>
                 </li>
                 <li>
                   <a rel="noopener noreferrer" href="#">
-                    FAQ
+                    Free payment
                   </a>
                 </li>
               </ul>
             </div>
             <div className="space-y-3">
               <h3 className="tracking-wide uppercase dark:text-gray-900 text-[#00C2CB]">
-                Company
+                Caution
               </h3>
               <ul className="space-y-1">
                 <li>
@@ -74,26 +78,36 @@ const Footer = () => {
                     Terms of Service
                   </a>
                 </li>
+                <li>
+                  <a rel="noopener noreferrer" href="#">
+                    FAQ
+                  </a>
+                </li>
               </ul>
             </div>
-            <div className="space-y-3">
+            <div className="flex flex-col space-y-3 ">
               <h3 className="uppercase dark:text-gray-900 text-[#00C2CB]">
-                Developers
+                Important Link
               </h3>
-              <ul className="space-y-1">
+              <ul className="space-y-3">
                 <li>
-                  <a rel="noopener noreferrer" href="#">
-                    Public API
+                  <a rel="noopener noreferrer" href="https://dshe.gov.bd">
+                    Directorate Of Secondary and Higher education
                   </a>
                 </li>
                 <li>
-                  <a rel="noopener noreferrer" href="#">
-                    Documentation
+                  <a rel="noopener noreferrer" href="https://www.vnsc.edu.bd">
+                    eTIF
                   </a>
                 </li>
                 <li>
-                  <a rel="noopener noreferrer" href="#">
-                    Guides
+                  <a rel="noopener noreferrer" href="https://www.dpe.gov.bd">
+                    Directorate of Primary Education
+                  </a>
+                </li>
+                <li>
+                  <a rel="noopener noreferrer" href="https://moedu.gov.bd">
+                    Ministry of Education
                   </a>
                 </li>
               </ul>

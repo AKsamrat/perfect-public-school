@@ -143,7 +143,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className=" text-white fixed z-10 w-full mt-10">
+      <div className=" text-white fixed z-30 w-full mt-10">
         <header className="bg-[#1515157b] shadow-lg  flex justify-between items-center w-full dark:bg-[#120505]  px-8 ">
           <div>
             <Link

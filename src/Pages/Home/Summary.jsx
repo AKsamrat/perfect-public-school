@@ -5,7 +5,7 @@ import { PiStudentBold } from 'react-icons/pi';
 
 const Summary = () => {
   return (
-    <div className="absolute -translate-y-20 z-10 left-32 ">
+    <div className="absolute -translate-y-20 z-10 left-32 hidden lg:flex ">
       <section className="px-4 py-12 mx-auto max-w-5xl">
         <div className="flex justify-center items-center gap-14">
           <div className="flex justify-center items-center gap-6 p-4 border-2 border-[#00C2CB] rounded-xl bg-pink-100 w-96">

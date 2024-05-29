@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const AddressBar = () => {
   return (
     <div>
-      <header className="bg-[#00c1cba4] shadow-lg text-white  w-full dark:bg-[#120505]  px-8  z-10 fixed h-10 pt-2 ">
+      <header className="bg-[#00c1cba4] shadow-lg text-white  w-full dark:bg-[#120505]  px-8  z-20 fixed h-10 pt-2 ">
         <div className="flex justify-between items-center">
           <p className="text-lg font-medium flex justify-center  items-center gap-2">
             <FaEnvelope className="font-bold text-xl"></FaEnvelope>{' '}

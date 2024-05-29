@@ -1,21 +1,24 @@
 import React from 'react';
 import img1 from '../../assets/monir vai.jpg';
+// import img2 from '../../assets/plogo.png';
 import SectionTitle from '../../Component/SectionTitle';
+import './Featureds.css';
+import { Parallax } from 'react-parallax';
 
 const DIrectorCorner = () => {
   return (
-    <div className="mt-28 mx-w-6xl mx-auto">
+    <div className="mt-28 mx-w-6xl mx-auto ">
       <SectionTitle
         subHeading={'valuable quote'}
         heading={'Director Corner'}
       ></SectionTitle>
-      <section className="p-4 lg:p-8 dark:bg-gray-100 dark:text-gray-800">
+      <section className="p-4 lg:p-8 dark:bg-gray-300 dark:text-gray-800">
         <div className="flex flex-col  justify-center   rounded-md shadow-sm lg:flex-row">
-          <div className="flex-1 w-7/12 text-right">
+          <div className="flex-1 lg:w-6/12 text-right">
             <img
               src={img1}
               alt=""
-              className="h-[450px] w-11/12 dark:bg-gray-500 "
+              className="h-80 lg:h-[550px] w-11/12 dark:bg-gray-500 "
             />
           </div>
           <div className="flex flex-col justify-center  p-6 dark:bg-gray-50 flex-1">
@@ -39,7 +42,7 @@ const DIrectorCorner = () => {
               citizens as well as global citizens. With these words, I welcome
               you to our Website.
             </p>
-            <div className="text-[#00C2CB]">
+            <div className="text-[#00C2CB] *:text-lg mt-7">
               <p>Director</p>
               <p>Perfect Public School</p>
               <p>MD.Maniruzzaman</p>
